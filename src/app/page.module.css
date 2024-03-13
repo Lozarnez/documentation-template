@@ -1,0 +1,8 @@
+.title {
+	text-transform: uppercase;
+	text-align: center;
+	background: linear-gradient(to right, #3f5EFB, #FC466B);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-size: 2rem;
+}
