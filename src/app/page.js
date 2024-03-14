@@ -1,7 +1,8 @@
+import { Typography } from '@mui/material';
 import style from './page.module.css'
 
 export default function Home() {
   return (
-    <h1 className={style.title}>Este es el Home</h1>
+    <Typography variant='h1'>Lorem ipsum dolor sit amed</Typography>
   );
 }

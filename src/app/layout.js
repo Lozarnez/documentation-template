@@ -1,6 +1,4 @@
-import { Roboto_Condensed } from "next/font/google";
-
-const roboto = Roboto_Condensed({ subsets: ["latin"], display: "swap" });
+import ThemePrivider from '@theme/themeProvider';
 
 export const metadata = {
   title: "Create Next App",
@@ -10,7 +8,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body>
+        <ThemePrivider>
+          {children}
+        </ThemePrivider>
+      </body>
     </html>
   );
 }
